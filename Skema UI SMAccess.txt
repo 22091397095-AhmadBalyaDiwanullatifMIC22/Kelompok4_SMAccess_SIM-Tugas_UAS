@@ -1,0 +1,65 @@
+Skema UI SMAccess:
+
+1. Login Sebagai Siswa:
+Header 
+- Home
+- Jadwal Pembelajaran (->Absensi Siswa) [Read, Write]
+- Transkrip Nilai Siswa (->Rekomendasi PTN) [Read Only + Download]
+- Pembayaran SPP [Read, Write]
+- Jurusan dan Kegiatan [Read Only]
+- Data Guru [Read Only]
+
+Body (Home)
+- Description Content About Application
+- News?
+- Profile Team?
+- (Conditional)
+
+Footer
+- Location
+- Contact Person
+- Everything About Footer
+
+2. Login Sebagai Guru:
+Header 
+- Home
+- Jadwal Pembelajaran (->Absensi Guru) [Read, Write]
+- Transkrip Nilai Siswa [Read, Write, Edit], (->Rekomendasi PTN) [Read Only]
+- Pembayaran SPP [Read, Write]
+- Jurusan dan Kegiatan [Read Only]
+- Data Guru [Read Only]
+- Monitoring [Read, Write, Edit]
+- Data Siswa [Read, Write, Edit]
+
+Body (Home)
+- Description Content About Application
+- News?
+- Profile Team?
+- (Conditional)
+
+Footer
+- Location
+- Contact Person
+- Everything About Footer
+
+3. Login Sebagai Admin:
+Header 
+- Home
+- Jadwal Pembelajaran (->Absensi Guru, Siswa) [Full Access]
+- Transkrip Nilai Siswa (->Rekomendasi PTN) [Full Access] 
+- Pembayaran SPP [Full Access]
+- Jurusan dan Kegiatan [Full Access]
+- Data Guru [Full Access]
+- Monitoring [Full Access]
+- Data Siswa [Full Access]
+
+Body (Home)
+- Description Content About Application
+- News?
+- Profile Team?
+- (Conditional)
+
+Footer
+- Location
+- Contact Person
+- Everything About Footer
