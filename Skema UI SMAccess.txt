@@ -3,11 +3,11 @@ Skema UI SMAccess:
 1. Login Sebagai Siswa:
 Header 
 - Home
-- Jadwal Pembelajaran (->Absensi Siswa) [Read, Write]
-- Transkrip Nilai Siswa (->Rekomendasi PTN) [Read Only + Download]
-- Pembayaran SPP [Read, Write]
-- Jurusan dan Kegiatan [Read Only]
-- Data Guru [Read Only]
+- Jadwal Pembelajaran didalamnya ada Absensi Siswa lalu untuk settingannya hanya bisa Read, Write
+- Transkrip Nilai Siswa didalamnya ada Rekomendasi PTN berdasarkan total nilai siswa hanya bisa Read dan Download
+- Pembayaran SPP hanya bisa Read, Write
+- Jurusan dan Kegiatan hanya bisa Read
+- Data Guru hanya bisa Read
 
 Body (Home)
 - Description Content About Application
